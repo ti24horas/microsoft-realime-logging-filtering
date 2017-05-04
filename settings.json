@@ -1,0 +1,7 @@
+﻿{
+  "Logging": {
+    "test": "Warning",
+    "test2": "Critical",
+    "test3": {"enabled" :  true }
+  }
+}

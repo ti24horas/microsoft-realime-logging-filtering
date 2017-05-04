@@ -1,0 +1,27 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "copyToOutput": ["settings.json"]
+  },
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    },
+    "Microsoft.Extensions.Logging": "1.1.1",
+    "Serilog": "2.4.0",
+    "Serilog.Extensions.Logging": "1.4.0",
+    "Serilog.Sinks.Literate": "2.1.0",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.1.1",
+    "Microsoft.Extensions.Configuration.Binder": "1.1.1",
+    "Microsoft.Extensions.Configuration.Json": "1.1.1"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}
